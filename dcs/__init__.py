@@ -31,12 +31,13 @@ Docker using STDIN by creating a tar file stream.
 
 
 APP_NAME = 'docker-context-streamer'
-APP_VERSION = '0.0.1'
+APP_VERSION = '0.0.2'
 APP_DESCRIPTION = __doc__
 
 __author__ = 'Franck Nijhof'
+__email__ = 'frenck@geekchimp.com'
 __copyright__ = 'Copyright 2017, Franck Nijhof'
 __license__ = 'GPLv3'
 __url__ = 'https://github.com/hassio-addons/docker-context-streamer'
-__download__ = 'https://github.com/hassio-addons/docker-context-streamer/archive/0.0.1.tar.gz'
+__download__ = 'https://github.com/hassio-addons/docker-context-streamer/archive/0.0.2.tar.gz'
 __version__ = APP_VERSION
