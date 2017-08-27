@@ -22,12 +22,12 @@ setup(
         'Development Status :: 3 - Alpha',
         'Environment :: Console',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License'
-        'Programming Language :: Python :: 2'       
-        'Programming Language :: Python :: 3'
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Build Tools',
         'Topic :: System',
-        'Topic :: Utilities',
+        'Topic :: Utilities'
     ],
     packages=find_packages(),
     requires=["six"],
