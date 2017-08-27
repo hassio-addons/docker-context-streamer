@@ -34,8 +34,8 @@ APP_NAME = 'docker-context-streamer'
 APP_VERSION = '0.0.1'
 APP_DESCRIPTION = __doc__
 
-__author__ = u'Franck Nijhof'
-__copyright__ = u'Copyright 2017, Franck Nijhof'
+__author__ = 'Franck Nijhof'
+__copyright__ = 'Copyright 2017, Franck Nijhof'
 __license__ = 'GPLv3'
 __url__ = 'https://github.com/hassio-addons/docker-context-streamer'
 __version__ = APP_VERSION
