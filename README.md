@@ -81,6 +81,8 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [awesome-shield]: https://img.shields.io/badge/awesome%3F-yes-brightgreen.svg
+[contributors]: https://github.com/hassio-addons/docker-context-streamer/graphs/contributors
+[frenck]: https://github.com/frenck
 [license-shield]: https://img.shields.io/github/license/hassio-addons/docker-context-streamer.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2017.svg
 [project-stage-shield]: https://img.shields.io/badge/Project%20Stage-Experimental-yellow.svg
