@@ -61,7 +61,6 @@ class Streamer(object):
         ):
             return True
         else:
-            print filename
             return False
 
     def stream_context(self):
