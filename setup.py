@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 from dcs import (
-    __author__, __license__, __url__,
+    __author__, __license__, __url__, __download__,
     APP_NAME, APP_VERSION, APP_DESCRIPTION
 )
 
@@ -15,6 +15,7 @@ setup(
     long_description=APP_DESCRIPTION,
     license=__license__,
     url=__url__,
+    download_url=__download__,
     keywords=['docker', 'dockerfile', 'stream'],
     classifiers=[
         'Development Status :: 3 - Alpha',

@@ -38,4 +38,5 @@ __author__ = 'Franck Nijhof'
 __copyright__ = 'Copyright 2017, Franck Nijhof'
 __license__ = 'GPLv3'
 __url__ = 'https://github.com/hassio-addons/docker-context-streamer'
+__download__ = 'https://github.com/hassio-addons/docker-context-streamer/archive/0.0.1.tar.gz'
 __version__ = APP_VERSION
