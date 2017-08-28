@@ -65,7 +65,10 @@ class Streamer(object):
 
     def stream_context(self):
         """Start streaming the tar context for Docker."""
-        with TarFile.open(mode='w|', fileobj=sys.stdout.buffer) as tarfile:
+        with TarFile.open(
+            mode='w|',
+            fileobj=getattr(sys.stdout, 'buffer', sys.stdout)
+        ) as tarfile:
 
             tarfile.add(
                 self.context,
