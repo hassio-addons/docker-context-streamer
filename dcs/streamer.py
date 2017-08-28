@@ -79,3 +79,6 @@ class Streamer(object):
             tarinfo = TarInfo('./Dockerfile')
             tarinfo.size = len(self.dockerfile)
             tarfile.addfile(tarinfo, BytesIO(self.dockerfile.encode('UTF-8')))
+
+        tarfile.close()
+        sys.stdout.flush()
