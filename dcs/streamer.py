@@ -30,7 +30,7 @@ output a tar stream containing both.
 """
 
 from fnmatch import fnmatchcase
-from six import StringIO
+from six import BytesIO
 from tarfile import TarFile, TarInfo
 import sys
 
@@ -65,7 +65,7 @@ class Streamer(object):
 
     def stream_context(self):
         """Start streaming the tar context for Docker."""
-        with TarFile.open(mode='w|', fileobj=sys.stdout) as tarfile:
+        with TarFile.open(mode='w|', fileobj=sys.stdout.buffer) as tarfile:
 
             tarfile.add(
                 self.context,
@@ -75,4 +75,4 @@ class Streamer(object):
 
             tarinfo = TarInfo('./Dockerfile')
             tarinfo.size = len(self.dockerfile)
-            tarfile.addfile(tarinfo, StringIO(self.dockerfile))
+            tarfile.addfile(tarinfo, BytesIO(self.dockerfile.encode('UTF-8')))
