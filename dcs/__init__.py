@@ -31,7 +31,7 @@ Docker using STDIN by creating a tar file stream.
 
 
 APP_NAME = 'docker-context-streamer'
-APP_VERSION = '0.1.0'
+APP_VERSION = '0.1.1'
 APP_DESCRIPTION = __doc__
 
 __author__ = 'Franck Nijhof'
