@@ -1,0 +1,5 @@
+./
+./etc/
+./etc/config.conf
+./testfile.txt
+./Dockerfile
